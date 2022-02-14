@@ -144,7 +144,7 @@ public class Utils {
     }
 
     private static boolean isSamebuildVariant() {
-        return mBuildVariant.equals(BuildInfoUtils.getbuildVariant());
+        return mBuildVariant.equals(BuildInfoUtils.getBuildVariant());
     }
 
     public static boolean canInstall(UpdateBaseInfo update) {
